@@ -428,6 +428,11 @@ public class MultiCameraModule implements CameraModule, PhotoController {
     }
 
     @Override
+    public void onSwitchSavePath() {
+
+    }
+
+    @Override
     public void waitingLocationPermissionResult(boolean waiting) {
 
     }
